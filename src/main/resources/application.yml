@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: "jdbc:mysql://localhost:3306/db_medical"
+    username: "user"
+    password: "4321"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
